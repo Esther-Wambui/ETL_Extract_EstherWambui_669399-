@@ -1,6 +1,4 @@
-Perfect — here is a **ready-to-use `README.md` template** you can copy and paste:
 
----
 
 # ETL Extract Lab
 
