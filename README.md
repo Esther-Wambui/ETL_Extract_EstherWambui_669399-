@@ -7,13 +7,15 @@
 
 ## Description
 
-This project is for **Lab 3: Practicing Extraction in ETL**.
-Demonstrating the process of performing **Full Extraction** and **Incremental Extraction** on a realistic dataset.
+This project is for **Lab 3 & 4: Practicing Extraction and Transformation in ETL**.  
+It demonstrated the process of performing:
 
-* **Full Extraction** loads the entire dataset and displays key statistics.
-* **Incremental Extraction** extracts only new or updated rows since the last recorded extraction timestamp.
+- **Full Extraction** – loading the entire dataset and displaying key statistics.
+- **Incremental Extraction** – extracting only new or updated rows since the last recorded extraction timestamp.
+- **Data Transformation** – cleaning, enriching, and structuring the extracted data for analysis.
 
-The project also updates the timestamp after every incremental extraction.
+The project also updated the timestamp after every incremental extraction.
+
 
 ---
 
