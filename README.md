@@ -100,6 +100,10 @@ Dataset used: **Sales Data Sample**
 *  ![image](https://github.com/user-attachments/assets/049ba52f-d1c6-465a-a6af-a0186f02a5cf)
 * ![image](https://github.com/user-attachments/assets/ac817931-582a-47f9-94c9-90e1b7092d14)
 * ![image](https://github.com/user-attachments/assets/a85ce39b-3bf9-463e-8233-fcf7aa6c3ba2)
+* ![image](https://github.com/user-attachments/assets/82a871e7-1262-4873-a212-f66f818d955c)
+* ![image](https://github.com/user-attachments/assets/5086cd81-aece-439d-bb25-3d10fdfac57f)
+
+
 
  
 
