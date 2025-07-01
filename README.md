@@ -7,13 +7,15 @@
 
 ## Description
 
-This project is for **Lab 3 & 4: Practicing Extraction and Transformation in ETL**.  
-It demonstrated the process of performing:
+This project covers **Lab 3, Lab 4, and Lab 5** from the **DSA 2040A – Data Warehousing and Data Mining** course. 
+It demonstrates the key stages of a real-world ETL (Extract, Transform, Load) pipeline using Python and Jupyter.
+
+Covered ETL Stages::
 
 - **Full Extraction** – loading the entire dataset and displaying key statistics.
 - **Incremental Extraction** – extracting only new or updated rows since the last recorded extraction timestamp.
 - **Data Transformation** – cleaning, enriching, and structuring the extracted data for analysis.
-
+-**Data Loading** – Save transformed datasets into structured Parquet files.
 The project also updated the timestamp after every incremental extraction.
 
 
@@ -21,9 +23,11 @@ The project also updated the timestamp after every incremental extraction.
 
 ## Tools Used
 
-* **Python 3.12**
-* **pandas** library
-* **Jupyter Notebook** (.ipynb)
+- Python 3.12  
+- Jupyter Notebook  
+- pandas  
+- pyarrow (for Parquet support)  
+- Pathlib (for cross-platform file handling)
 
 ---
 
@@ -50,6 +54,30 @@ git clone https://github.com/Esther-Wambui/ETL_Extract_EstherWambui_669399-.git
    * Perform **Incremental Extraction** based on last_extraction.txt.
    * Save the new timestamp.
 
+6. After running `etl_extract.ipynb`, two files will be created:
+
+   * `transformed_full.csv` – the cleaned full dataset.
+   * `transformed_incremental.csv` – the cleaned incremental dataset.
+
+7. Then run `etl_load.ipynb` to load both transformed datasets into structured Parquet files.
+
+8. This notebook will:
+
+   * Load `transformed_full.csv` and `transformed_incremental.csv` using pandas.
+   * Save each as a `.parquet` file using the `pyarrow` engine.
+   * Create a `loaded_data/` folder (if not already existing).
+   * Preview the first 5 rows from both Parquet files to confirm successful loading.
+
+9. Output files from Lab 5:
+
+   * `loaded_data/full_data.parquet`
+   * `loaded_data/incremental_data.parquet`
+  
+10. Ensure you have `pyarrow` installed before running `etl_load.ipynb`:
+
+```bash
+pip install pyarrow 
+```
 ---
 
 ## Dataset Source
